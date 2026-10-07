@@ -15,6 +15,13 @@
 # f.write("this is a new file created by me")
 # f.close()
 
-f=open("newSample.txt", "r")
-data = f.read()
-print(data)
+# f=open("newSample.txt", "r")
+# data = f.read()
+# print(data)  
+
+# with open("D:\Python\AI-ML Data Science\Python\Python-Concepts\sample.txt", "r") as f:
+#     data = f.read()
+#     print(data)
+
+# import os
+# os.remove("AI-ML Data Science/Python/Python-Concepts/newSample.txt")
