@@ -25,3 +25,20 @@
 
 # import os
 # os.remove("AI-ML Data Science/Python/Python-Concepts/newSample.txt")
+
+
+#Mini Question
+data = True
+word = "Hello"
+line=1
+with open("AI-ML Data Science/Python/Python-Concepts/sample.txt", "r") as f:
+    while data:
+        data = f.readline()
+        if(word in data):
+            print(f"the word {word} is present here in line: {line}")
+            break
+        line+=1
+        
+    else:
+        if(word not in data):
+            print(f"the word {word} is not present in the file")
